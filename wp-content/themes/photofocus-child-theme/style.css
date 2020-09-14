@@ -11,3 +11,7 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  hotofocuschild
 */
+body {
+    background: rgb(237, 225, 211);
+    background: linear-gradient(90deg, rgba(237, 225, 211, 1) 0%, rgba(225, 197, 155, 1) 20%, rgba(222, 191, 144, 0.4822303921568627) 42%);
+}
