@@ -18,10 +18,79 @@ body {
     background: radial-gradient(circle, rgba(140, 133, 123, 0.7189250700280112) 10%, rgba(217, 205, 191, 1) 100%);
 }
 
-/* i made a navigation bar fixed */
-.main-header-bar-wrap {
-    position: fixed;
+/*
+Navigation bar fixed */
+.main-header-bar {
     width: 100%;
+    position: fixed;
     z-index: 1;
-    opacity: 0.5;
+    background: #d9cdbf;
+}
+
+/*.ast-flex.main-header-container */
+
+.main-header-bar {
+
+    background-color: #8C857B;
+    opacity: 0.9;
+}
+
+
+.ast-flex.main-header-container {
+    background-color: #A67F68;
+    opacity: 0.9;
+}
+
+/*button color */
+.ast-button {
+    background-color: #2F3840;
+}
+
+/*button hover */
+.menu-toggle,
+button,
+.ast-button,
+.ast-custom-button,
+.button,
+input#submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    border-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    color: #ffffff;
+    border-color: #8C857B;
+    background-color: #8C857B;
+    border-radius: 0;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a.elementor-button-link.elementor-button.elementor-size-sm {
+    color: black;
+}
+
+.elementor-kit-38 button,
+.elementor-kit-38 input[type="button"],
+.elementor-kit-38 input[type="submit"],
+.elementor-kit-38 .elementor-button {
+    color: #8C857B;
+    background-color: rgba(2, 1, 1, 0);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #8C857B;
+    border-radius: 0px 0px 0px 0px;
+    padding: 16px 40px 16px 40px;
 }
