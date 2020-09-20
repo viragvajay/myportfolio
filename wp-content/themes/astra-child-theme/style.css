@@ -1,6 +1,6 @@
 /*
- Theme Name:   Astra Child Theme
- Theme URI:    http://thenewhedonist.dk/astra-child-theme/
+ Theme Name:   Astra Child
+ Theme URI:    http: //thenewhedonist.dk/astra-child-theme/
  Description:  Astra Child Theme is based on the parent theme Astra
  Author:       Virag Vajay
  Author URI:   http://thenewhedonist.dk
@@ -9,11 +9,12 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  astrachild
+ Text Domain:  twentyfifteenchild
 */
-body {
-    background: rgb(217, 205, 191);
-    background: linear-gradient(90deg, rgba(217, 205, 191, 1) 0%, rgba(140, 133, 123, 1) 50%, rgba(166, 127, 104, 1) 100%);
+
+
+.body {
+    background-color: aqua;
 }
 
 /* i made a navigation bar fixed */

@@ -8,7 +8,6 @@ function my_theme_enqueue_styles() {
         array(),  // if the parent theme code has a dependency, copy it to here
         $theme->parent()->get('Version')
     );
-/* the link below is linking to the child theme*/
     wp_enqueue_style( 'child-style', get_stylesheet_uri(),
         array( $parenthandle ),
         $theme->get('Version') // this only works if you have Version in the style header
