@@ -13,8 +13,9 @@
 */
 
 
-.body {
-    background-color: aqua;
+body {
+    background: rgb(140, 133, 123);
+    background: radial-gradient(circle, rgba(140, 133, 123, 0.7189250700280112) 10%, rgba(217, 205, 191, 1) 100%);
 }
 
 /* i made a navigation bar fixed */
