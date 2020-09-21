@@ -37,6 +37,10 @@ Navigation bar fixed */
 
 
 .ast-flex.main-header-container {
+    background-color: aqua;
+}
+
+/*.ast-flex.main-header-container {
     background-color: #A67F68;
     opacity: 0.9;
 }
